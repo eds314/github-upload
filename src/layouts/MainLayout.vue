@@ -77,7 +77,7 @@
           <q-item-section>
             <q-item-label overline class="text-grey">Education</q-item-label>
             <q-item-label class="text-grey-bold">Something amazing happened</q-item-label>
-            <q-item-label caption>Secondary line text. Lorem ipsum dolor sit amet, consectetur adipiscit elit.</q-item-label>
+            <q-item-label caption>Student loan debt has been eliminated at the expense of no one. </q-item-label>
           </q-item-section>
 
           <q-item-section side top>
@@ -86,9 +86,9 @@
         </q-item>
          <q-item class="q-pa-md">
           <q-item-section>
-            <q-item-label overline class="text-grey">Education</q-item-label>
-            <q-item-label class="text-grey-bold">Something amazing happened</q-item-label>
-            <q-item-label caption>Secondary line text. Lorem ipsum dolor sit amet, consectetur adipiscit elit.</q-item-label>
+            <q-item-label overline class="text-grey">News</q-item-label>
+            <q-item-label class="text-grey-bold">This just in!</q-item-label>
+            <q-item-label caption>All global leaders have just signed a peace treaty, dawning a new era of human existence.</q-item-label>
           </q-item-section>
 
           <q-item-section side top>
@@ -97,9 +97,9 @@
         </q-item> 
         <q-item class="q-pa-md">
           <q-item-section>
-            <q-item-label overline class="text-grey">Education</q-item-label>
-            <q-item-label class="text-grey-bold">Something amazing happened</q-item-label>
-            <q-item-label caption>Secondary line text. Lorem ipsum dolor sit amet, consectetur adipiscit elit.</q-item-label>
+            <q-item-label overline class="text-grey">Sports</q-item-label>
+            <q-item-label class="text-grey-bold">How bout that local sports team?</q-item-label>
+            <q-item-label caption>Your favorite team is doing great! They just scored a touchdown, 3-pointer,goal, homerun!</q-item-label>
           </q-item-section>
 
           <q-item-section side top>
@@ -110,7 +110,9 @@
     </q-drawer>
 
     <q-page-container>
+      <keep-alive>
       <router-view />
+      </keep-alive>
     </q-page-container>
 
   </q-layout>
